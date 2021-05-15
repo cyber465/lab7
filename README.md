@@ -2,6 +2,8 @@
 # lab7
 
 # PHP Dasar
+Buat file baru dengan nama php_dasar.php pada directory tersebut. Kemudian buat
+kode seperti berikut.
 
 '''
 <!DOCTYPE html>
@@ -18,30 +20,41 @@ echo "Hello World";
 </body>
 </h
   tml> 
+  
 '''
+
+
 # Variable PHP
+Menambahkan variable pada program.
 
 '''
+
 <?php
 $nim = "0411500400";
 $nama = 'Abdullah';
 echo "NIM : " . $nim . "<br>";
 echo "Nama : $nama";
 ?>
+
+
 '''
+
 ![Untitled](https://user-images.githubusercontent.com/37741274/118349211-890e0600-b579-11eb-93cd-a1d40543947b.png)
 
 # Predefine Variable $_GET
 
 '''
+
 <?php
 echo 'Selamat Datang ' . $_GET['nama'];
 ?>
+
 '''
 
 # Membuat Form Input
 
 '''
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -60,6 +73,7 @@ echo 'Selamat Datang ' . $_POST['nama'];
 ?>
 </body>
 </html>
+
 '''
 
 ![1](https://user-images.githubusercontent.com/37741274/118349257-d68a7300-b579-11eb-954b-cb2a21d635a9.png)
