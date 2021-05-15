@@ -4,7 +4,6 @@
 # PHP Dasar
 
 '''
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,37 +17,31 @@ echo "Hello World";
 ?>
 </body>
 </h
-  tml>
-  
+  tml> 
 '''
 # Variable PHP
 
 '''
-
 <?php
 $nim = "0411500400";
 $nama = 'Abdullah';
 echo "NIM : " . $nim . "<br>";
 echo "Nama : $nama";
 ?>
-
 '''
 ![Untitled](https://user-images.githubusercontent.com/37741274/118349211-890e0600-b579-11eb-93cd-a1d40543947b.png)
 
 # Predefine Variable $_GET
 
 '''
-
 <?php
 echo 'Selamat Datang ' . $_GET['nama'];
 ?>
-
 '''
 
 # Membuat Form Input
 
 '''
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +60,6 @@ echo 'Selamat Datang ' . $_POST['nama'];
 ?>
 </body>
 </html>
-
 '''
 
 ![1](https://user-images.githubusercontent.com/37741274/118349257-d68a7300-b579-11eb-954b-cb2a21d635a9.png)
@@ -85,7 +77,6 @@ echo "Gaji yang dibawa pulang = Rp. $thp";
 '''
 
 # Kondisi IF
-
 '''
 <?php
 $nama_hari = date("l");
@@ -98,9 +89,7 @@ echo "Selasa";
 }
 ?>
 # Kondisi Switch
-
 ''''
-
 <?php
 $nama_hari = date("l");
 switch ($nama_hari) {
@@ -116,14 +105,11 @@ break;
 default:
 echo "Sabtu";
 ?>
-
 '''
 
 
 # Perulangan for
-
 '''
-
 <?php
 echo "Perulangan 1 sampai 10 <br />";
 for ($i=1; $i<=10; $i++) {
@@ -134,12 +120,9 @@ for ($i=10; $i>=1; $i--) {
 echo "Perulangan ke: " . $i . '<br />';
 }
 ?>
-
 '''
 # Perulangan while
-
 '''
-
 <?php
 echo "Perulangan 1 sampai 10 <br />";
 $i=1;
@@ -148,13 +131,9 @@ echo "Perulangan ke: " . $i . '<br />';
 $i++;
 }
 ?>
-
 '''
-
 # Perulangan dowhile
-
 '''
-
 <?php
 echo "Perulangan 1 sampai 10 <br />";
 $i=1;
@@ -163,7 +142,6 @@ echo "Perulangan ke: " . $i . '<br />';
 $i++;
 } while ($i<=10);
 ?>
-
 '''
 
 
